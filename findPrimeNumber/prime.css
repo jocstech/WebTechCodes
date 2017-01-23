@@ -1,0 +1,66 @@
+body {
+    padding: 5px;
+}
+
+header {
+    color: white;
+    font-size: 2em;
+    padding: 20px;
+    background-color: #337ab7;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.close {
+    float: right;
+}
+
+#checker {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#result {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+
+#lister {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#control {
+    padding: 10px;
+}
+
+#display {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#display th {
+    border-bottom: 2px solid black;
+}
+
+#display tr:hover {
+    border-bottom: 1px solid red;
+}
+
+
+#display td:hover {
+    background-color: silver;
+}
+
+.selected {
+    background-color: chartreuse;
+}
